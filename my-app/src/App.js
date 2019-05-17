@@ -26,7 +26,7 @@ function App() {
           </div>
 
           <div class="card">
-            <img class="card-img-top" src="https://avatars2.githubusercontent.com/u/4184874?s=460&v=4" alt="Card image cap" />
+            <img class="card-img-top" src="https://www.eleconomista.com.mx/__export/1507908527089/sites/eleconomista/img/historico/16-luisgbm-800.jpg_2118499843.jpg" alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title">Luis Kentzler</h5>
               <p class="card-text">Project Manager</p>
