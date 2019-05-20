@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Title from './Title.jsx'
 
 function App() {
   return (
@@ -15,18 +15,20 @@ function App() {
       </div>
 
       <div class="container my-5">
-        <div class="card-deck">
+          <Title />
+
+        <div class="card-deck mt-5">
 
           <div class="card">
             <img class="card-img-top" src="https://www.xing.com/image/c_2_b_d6d996c21_22325856_4/thomas-stanner-foto.256x256.jpg" alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title">Thomas Stanner</h5>
-              <p class="card-text">Project Manager</p>
+              <p class="card-text">Product Manager</p>
             </div>
           </div>
 
           <div class="card">
-            <img class="card-img-top" src="https://www.eleconomista.com.mx/__export/1507908527089/sites/eleconomista/img/historico/16-luisgbm-800.jpg_2118499843.jpg" alt="Card image cap" />
+            <img class="card-img-top" src="https://avatars2.githubusercontent.com/u/4184874?s=460&v=4" alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title">Luis Kentzler</h5>
               <p class="card-text">Project Manager</p>
