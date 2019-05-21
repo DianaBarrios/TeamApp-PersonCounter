@@ -9,18 +9,64 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:#f7f7ef;
+  color: #412eff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.WE-ARE {
+  width: 189px;
+  height: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #d8d8d8;
+}
+
+.HMW {
+  border-left: 13px solid #ffbf31;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-top: 133px;
+  margin-bottom: 133px;
+}
+
+.Our-team {
+  color: #aeaeae;
+}
+
+.Group-photo {
+  margin-top: 240px;
+  margin-bottom: 133px;
+}
+
+.About-us {
+  color: #aeaeae;
+  font-size: 40px;
+  border-left: 13px solid #412eff;
+  border-right: 13px solid #412eff;
+  border-bottom: 13px solid #412eff;
+  border-top: 13px solid #412eff;
+  padding: 6px;
+}
+.line {
+  height: 13px;
+  background-color: #ffbf31;
 }
 
 @keyframes App-logo-spin {

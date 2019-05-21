@@ -5,13 +5,31 @@ import Title from './Title.jsx'
 function App() {
   return (
     <div>
-      <div className="App">
+      
+      <div>
         <header className="App-header">
-          <div class="container my-4 mx-5">
-          <p class="font-italic">How might we help companies to find a social program that matches their employee goals with their own?</p>
-          </div>
-          <h1 class="text-monospace-bold text-warning">Smiles AI</h1>
+            <div class="row justify-content-center">
+              <div class="WE-ARE col-6">
+                WE ARE
+              </div>
+            </div>
+
+            <div class="row justify-content-center mt-5 mx-auto">
+              <div class="col">
+                <h1 class="display-1 font-weight-bold">
+                  Sm<span style={{color: '#ffbf31'}}>;) </span> es.AI
+                </h1>
+              </div>
+            </div>
         </header>
+      </div>
+
+      <div class="container my-5">
+        <blockquote class="blockquote HMW">
+          <p class="mb-0 ml-3 my-auto">
+          How might we help companies to find a social program that matches their employees goals with their own?
+          </p>
+        </blockquote>
       </div>
 
       <div class="container my-5">
@@ -28,10 +46,10 @@ function App() {
           </div>
 
           <div class="card">
-            <img class="card-img-top" src="https://avatars2.githubusercontent.com/u/4184874?s=460&v=4" alt="Card image cap" />
+            <img class="card-img-top" src="https://lh3.googleusercontent.com/4YuhxErWgpwpDwkLmaNb-tuk4xPinslepgKHWcItf5H6mUNjUpWUxwFFvt5H_FXaRJPeZfGH22AhM9KpDoH2co1Ud3r9-aR20pqHnAbP50sbdszuz9FIBlOp_DGW-vU7FlJUqGw2=w2400" alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title">Luis Kentzler</h5>
-              <p class="card-text">Project Manager</p>
+              <p class="card-text">Product Manager</p>
             </div>
           </div>
 
@@ -50,8 +68,30 @@ function App() {
               <p class="card-text">Software Engineer</p>
             </div>
           </div>
-
         </div>
+
+      <div class="container Group-photo">
+       <img src="https://lh3.googleusercontent.com/aXw358NW2VD0B3x_CFBadM1tOdRrkwI7y5_fVf0IKATgxO7YRkPSn5LpLoAchAYb7d3zrtzVxDu3jKn0yBEYTeFthAsKkARKZmOaeJ9O7wM-epIRkEnTMMVHPPw6kAzmc2xgLQdd=w2400" class="img-fluid" alt="Responsive image" />
+      </div>
+
+      <div class="card-deck">
+        <div class="card About-us">
+          <div class="card-body">
+            <h1 class="card-title display-4 font-weight-bold">Creating a meaningful product</h1>
+            <h3 class="card-subtitle mb-4 text-muted"> </h3>
+           <span class="badge badge-secondary line"> ----------- </span>
+          </div>
+        </div>
+
+        <div class="card About-us">
+          <div class="card-body">
+            <h1 class="card-title display-4 font-weight-bold">Diverse group</h1>
+            <h3 class="card-subtitle mb-4 text-muted"> </h3>
+            <span class="badge badge-secondary line"> ----------- </span>
+          </div>
+        </div>
+      </div>
+
       </div>
     </div>
   );

@@ -1,10 +1,11 @@
 import React from 'react';
+import './App.css';
 
 class OurName extends React.Component {
 
   constructor(props){
     super(props);
-    this.alternate_text = "Our team";
+    this.alternate_text = "Our Team";
     this.initial_text = "Smiles AI";
     this.state = {
       initial : true,
@@ -24,8 +25,8 @@ class OurName extends React.Component {
   render(){
     return (
       <p className="OurName">
-        <h1 class ="text-warning">
-            <span onClick={this.changeTitle}>{this.state.text}</span>
+        <h1 class="Our-team">
+          <span onClick={this.changeTitle}>{this.state.text}</span>
         </h1>
       </p>
     );
