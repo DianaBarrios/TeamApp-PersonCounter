@@ -33,7 +33,9 @@ function App() {
       </div>
 
       <div class="container my-5">
+        <div>
           <Title />
+        </div>
 
         <div class="card-deck mt-5">
 

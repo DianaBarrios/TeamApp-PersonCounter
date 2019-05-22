@@ -24,7 +24,7 @@ class Title extends React.Component {
   render(){
     return (
       //<p className="Title">
-        <h1 class ="text-monospace-bold text-warning text-center">
+        <h1 class ="display-4 font-weight-bold text-center text-warning">
             <span onClick={this.changeTitle}>{this.state.text}</span>
         </h1>
       //</p>
