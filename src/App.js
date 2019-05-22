@@ -42,6 +42,8 @@ function App() {
             <div class="card-body">
               <h5 class="card-title">Thomas Stanner</h5>
               <p class="card-text">Product Manager</p>
+              <a href="https://www.linkedin.com/in/thomas-stanner-27180a154/" class="card-link">Linkedin</a>
+              <a href="https://www.xing.com/profile/Thomas_Stanner" class="card-link">XING</a>
             </div>
           </div>
 
@@ -50,6 +52,8 @@ function App() {
             <div class="card-body">
               <h5 class="card-title">Luis Kentzler</h5>
               <p class="card-text">Product Manager</p>
+              <a href="https://www.linkedin.com/in/luis-kentzler-68409522/" class="card-link">Linkedin</a>
+              <a href="https://github.com/kentzler" class="card-link">GitHub</a>
             </div>
           </div>
 
@@ -58,6 +62,8 @@ function App() {
             <div class="card-body">
               <h5 class="card-title">Sunny Chen</h5>
               <p class="card-text">Interaction Designer</p>
+              <a href="https://www.linkedin.com/in/chingyunchen/" class="card-link">Linkedin</a>
+              <a href="https://www.chingyunchen.com/" class="card-link">Portfolio</a>
             </div>
           </div>
 
@@ -66,6 +72,8 @@ function App() {
             <div class="card-body">
               <h5 class="card-title">Diana Barrios</h5>
               <p class="card-text">Software Engineer</p>
+              <a href="https://www.linkedin.com/in/diana-barrios/" class="card-link">Linkedin</a>
+              <a href="https://github.com/DianaBarrios" class="card-link">GitHub</a>
             </div>
           </div>
         </div>
