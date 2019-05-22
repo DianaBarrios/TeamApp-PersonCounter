@@ -17,7 +17,7 @@ function App() {
             <div class="row justify-content-center mt-5 mx-auto">
               <div class="col">
                 <h1 class="display-1 font-weight-bold">
-                  Sm<span style={{color: '#ffbf31'}}>;) </span> es.AI
+                  Sm<span style={{color: '#ffbf31'}}>;)</span>es.AI
                 </h1>
               </div>
             </div>
