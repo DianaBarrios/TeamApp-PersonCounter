@@ -10,7 +10,7 @@ function App() {
         <header className="App-header">
             <div class="row justify-content-center">
               <div class="WE-ARE col-6">
-                WE ARE
+                We Are
               </div>
             </div>
 
