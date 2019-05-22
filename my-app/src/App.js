@@ -77,7 +77,7 @@ function App() {
       <div class="card-deck">
         <div class="card About-us">
           <div class="card-body">
-            <h1 class="card-title display-4 font-weight-bold">Creating a meaningful product</h1>
+            <h1 class="card-title display-4 font-weight-bold">Creating a meaningful product.</h1>
             <h3 class="card-subtitle mb-4 text-muted"> </h3>
            <span class="badge badge-secondary line"> ----------- </span>
           </div>
@@ -85,7 +85,7 @@ function App() {
 
         <div class="card About-us">
           <div class="card-body">
-            <h1 class="card-title display-4 font-weight-bold">Diverse group</h1>
+            <h1 class="card-title display-4 font-weight-bold">Diverse group.</h1>
             <h3 class="card-subtitle mb-4 text-muted"> </h3>
             <span class="badge badge-secondary line"> ----------- </span>
           </div>
