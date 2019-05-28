@@ -7,7 +7,7 @@ class Challenge extends React.Component {
             <div>
                 <div class="container ml-5">
                     <header className="Challenge-header">
-                        <h1 class="font-weight-bold">Engineering Challenge 2</h1>
+                        <h1 class="text-secondary font-weight-bold">Engineering Challenge 2</h1>
                     </header>
                 </div>
 
