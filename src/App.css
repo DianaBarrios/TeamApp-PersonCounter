@@ -69,6 +69,10 @@
   background-color: #ffbf31;
 }
 
+.Challenge-header {
+  color: #412eff;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
