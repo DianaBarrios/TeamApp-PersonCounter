@@ -12,7 +12,7 @@ class Challenge extends React.Component {
                 </div>
 
                 <div class="container my-5">
-                    <img src="https://us-central1-core-228912.cloudfunctions.net/raspberry-pi-a7?apiKey=lyubomir" class="img-fluid" alt="Responsive image"></img>
+                    <img src="https://us-central1-core-228912.cloudfunctions.net/raspberry-pi-a7?apiKey=MFDW!!HQ_!CCPK?Q?QJEGAKQ!ENFM%3C%3E(XGQ}BXAMM%3CQ:&dummy=" class="img-fluid" alt="Responsive image"></img>
                 </div>
             </div>
         )

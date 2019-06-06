@@ -7,12 +7,12 @@ import Title from './Title.jsx'
   //return (
     render(){
       return (
-      <div>
+      <div class="white-section">
         
         <div>
           <header className="App-header">
               <div class="row justify-content-center">
-                <div class="WE-ARE col-6">
+                <div class="WE-ARE col-5">
                   WE ARE
                 </div>
               </div>
