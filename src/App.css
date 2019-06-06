@@ -11,7 +11,7 @@
 .App-header {
   background-color:#f7f7ef;
   color: #412eff;
-  min-height: 100vh;
+  min-height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,19 +58,25 @@
 .About-us {
   color: #aeaeae;
   font-size: 40px;
-  border-left: 13px solid #412eff;
-  border-right: 13px solid #412eff;
-  border-bottom: 13px solid #412eff;
-  border-top: 13px solid #412eff;
+  border-left: 10px solid #412eff;
+  border-right: 10px solid #412eff;
+  border-bottom: 10px solid #412eff;
+  border-top: 10px solid #412eff;
   padding: 6px;
+  border-radius: 0px;
 }
 .line {
   height: 13px;
   background-color: #ffbf31;
+  border-radius: 0px;
 }
 
 .Challenge-header {
   color: #412eff;
+}
+
+.white-section {
+  background-color: white;
 }
 
 @keyframes App-logo-spin {
