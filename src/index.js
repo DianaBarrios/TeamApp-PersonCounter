@@ -18,16 +18,16 @@ import * as serviceWorker from './serviceWorker';
 
 const routing = (
     <Router>
-      <div class="nav-smiles">
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" href="/">Home</a>
+      <div>
+        <ul>
+          <li>
+            <NavLink exact activeClassName="active" to="/">Home</NavLink>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="/challenge">Challenge</a>
+          <li>
+            <NavLink activeClassName="active" to="/challenge">Challenge</NavLink>
           </li>
         </ul>
-        
+        <hr />
         <Switch>
           <Route exact path="/" component={App} />
           <Route exact path="/challenge" component={Challenge} />

@@ -7,26 +7,27 @@ import Title from './Title.jsx'
   //return (
     render(){
       return (
-      <div class="white-section" >
+      <div>
         
         <div>
           <header className="App-header">
               <div class="row justify-content-center">
-                <div class="WE-ARE col-5">
+                <div class="WE-ARE col-6">
                   WE ARE
                 </div>
               </div>
+
               <div class="row justify-content-center mt-5 mx-auto">
                 <div class="col">
                   <h1 class="display-1 font-weight-bold">
                     Sm<span style={{color: '#ffbf31'}}>i)</span>es.AI
                   </h1>
                 </div>
-      </div> 
+              </div>
           </header>
         </div>
 
-        <div class="container my-5  ">
+        <div class="container my-5">
           <blockquote class="blockquote HMW">
             <p class="mb-0 ml-3 my-auto">
             How might we help companies to find a social program that matches their employees goals with their own?
