@@ -1,7 +1,6 @@
-import * as firebase from 'firebase';
-import firestore from 'firebase/firestore';
-
-const settings = {timestampsInSnapshots: true};
+const storage = require("firebase/storage");
+const firebase = require("firebase/app");
+const firestore = require("firebase/firestore");
 
 const config = {
   apiKey: "AIzaSyDqSPSxMQOmTP6R2qOauDNYrBrKRPvfbc0",
@@ -15,6 +14,7 @@ const config = {
 
 firebase.initializeApp(config);
 
-firebase.firestore().settings(settings);
-  
-export default firebase;
+const db = firebase.firestore();
+const st = firebase.storage();
+
+module.exports = { db, st };
