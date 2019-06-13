@@ -1,11 +1,11 @@
 import React from 'react';
-import firebase from '../firebase.js'
-//const firebase = require('../firebase.js');
-//const db = firebase.db;
-//const st = firebase.storage;
+//import firebase from '../firebase.js'
+const firebase = require('../firebase.js');
+const db = firebase.db;
+const st = firebase.storage;
 
-const db = firebase.firestore();
-const st = firebase.storage();
+//const db = firebase.firestore();
+//const st = firebase.storage();
 
 class ImgRecognition extends React.Component {
 
