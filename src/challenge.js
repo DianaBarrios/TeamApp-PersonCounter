@@ -1,5 +1,4 @@
 import React from "react";
-import { Route, Link } from "react-router-dom";
 import ImgRecognition from "./components/ImgRecognition.jsx";
 
 class Challenge extends React.Component {
@@ -12,14 +11,6 @@ class Challenge extends React.Component {
               Engineering Challenge 2
             </h1>
           </header>
-        </div>
-
-        <div class="container my-5">
-          <img
-            src="https://us-central1-core-228912.cloudfunctions.net/raspberry-pi-a7?apiKey=MFDW!!HQ_!CCPK?Q?QJEGAKQ!ENFM%3C%3E(XGQ}BXAMM%3CQ:&dummy="
-            class="img-fluid"
-            alt="Responsive image"
-          />
         </div>
 
         <div>

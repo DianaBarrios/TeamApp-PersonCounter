@@ -1,11 +1,8 @@
 import React from "react";
-//import firebase from '../firebase.js'
+import { from } from 'rxjs';
 const firebase = require("../firebase.js");
 const db = firebase.db;
 const st = firebase.st;
-
-//const db = firebase.firestore();
-//const st = firebase.storage();
 
 class ImgRecognition extends React.Component {
   constructor(props) {
@@ -14,7 +11,8 @@ class ImgRecognition extends React.Component {
       count: 0,
       time: "",
       date: "",
-      name: ""
+      name: "",
+      location: ""
     };
     this.watchData = this.watchData.bind(this);
   }
@@ -30,24 +28,29 @@ class ImgRecognition extends React.Component {
         // console.log(`Received query snapshot of size ${querySnapshot.size}`);
 
         let data = querySnapshot.docs[0].data();
-        // console.log(data);
- 
-        
-        var stRef = st.ref();
-        var picsRef = stRef.child('smiles-ai-images');
-        //picsRef.getDownloadURL();
+        //console.log(data);
         var fileName = data.name;
-        var picRef = picsRef.child(name);
-        picRef.getDownloadURL().then(function(url) {
-          console.log(url);
+
+        var imagesRef = st.refFromURL('gs://smiles-ai-images')
+        var imgRef = imagesRef.child(fileName);
+        //var imgRef = st.ref().child(`smiles-ai-images/${fileName}`);
+
+        imgRef.getDownloadURL().then(function(url) {
+            console.log("Success getting the file");
+            console.log(url);
+            me.setState({
+                count: data.count,
+                time: data.timestamp.toDate().toLocaleTimeString("en-US"),
+                date: data.timestamp.toDate().toLocaleDateString("en-US"),
+                name: data.name,
+                location: url
+              });
+        }).catch(function(error){
+            console.log("Error getting the file");
         });
-        
-        me.setState({
-          count: data.count,
-          time: data.timestamp.toDate().toLocaleTimeString("en-US"),
-          date: data.timestamp.toDate().toLocaleDateString("en-US"),
-          name: data.name
-        });
+
+       
+
       },
       err => {
         console.log(`Encountered error: ${err}`);
@@ -62,16 +65,15 @@ class ImgRecognition extends React.Component {
   render() {
     return (
       <div>
-        <div className="container">
-          <h1>Image Recognition:</h1>
-          <h2>There are {this.state.count} persons in this picture.</h2>
-          <h3>Date: {this.state.date}</h3>
-          <h3>Time: {this.state.time}</h3>
+         <div className="container">
+          <img src={this.state.location} class="img-fluid" alt="Last" />
         </div>
 
         <div className="container">
-          <h3>Picture: {this.state.name}</h3>
-          <img src="" class="img-fluid" alt="Responsive image" />
+          <h2>There are {this.state.count} persons in this picture.</h2>
+          <h3>Date: {this.state.date}</h3>
+          <h3>Time: {this.state.time}</h3>
+          <h3>{this.state.name}</h3>
         </div>
       </div>
     );
@@ -86,4 +88,6 @@ export default ImgRecognition;
 - React Tutorial 
 - Incorporate in your app
 - bonus: how to develop cloud functions locally
+
+{this.state.location}
 */
